@@ -1,0 +1,139 @@
+html{
+  font-family: helvetica;
+}
+
+body{
+  background-color: #111;
+  margin: 0 auto;
+  padding-top: 10px;
+  position: relative;
+  width: 960px;
+}
+
+header{
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+header img{
+  clear: both;
+}
+
+#banner{
+  position: fixed;
+  top: 0;
+  width: 960px;
+  z-index: 100;
+}
+
+#content{
+  background-color: #333;
+  -webkit-box-shadow:inset 0px 0px 0px 5px #666;
+  -moz-box-shadow:inset 0px 0px 0px 5px #666;
+  box-shadow:inset 0px 0px 0px 5px #666;
+  float: right;
+  padding: 10px;
+  width: 940px;
+}
+
+#sidebar{
+  background-color: #333;
+  -webkit-box-shadow:inset 0px 0px 0px 5px #666;
+  -moz-box-shadow:inset 0px 0px 0px 5px #666;
+  box-shadow:inset 0px 0px 0px 5px #666;
+  left: -170px;
+  float: left;
+  position: absolute;
+  width: 160px;
+}
+
+#sidebar ul{
+  padding-left: 20px;
+}
+
+#sidebar ul li{
+  color: #fff;
+}
+
+footer{
+  color: #888;
+  clear: both;
+  text-align: center;
+}
+
+#leftBanner{
+  position: absolute;
+  left: -290px;
+}
+
+#rightBanner{
+  position: absolute;
+  right: -290px;
+}
+
+#menu li{
+  list-style: none;
+  padding: 2px;
+}
+
+#leftVexillum{
+  position: absolute;
+  left: 60px;
+  bottom: -1px;
+}
+
+#rightVexillum{
+  position: absolute;
+  right: 60px;
+  bottom: -1px;
+}
+
+#underConstructionH2{
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 35px 0 35px 0;
+  margin: 0;
+  width: 720px;
+}
+
+#leftUnderConstructionImage{
+  float: left;
+}
+
+#rightUnderConstructionImage{
+  float: right;
+}
+
+/* unvisited link */
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+
+/* selected link */
+a:active {
+    color: #fff;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1560px){
+  #leftBanner{
+    display: none;
+  }
+
+  #rightBanner{
+    display: none;
+  }
+}
